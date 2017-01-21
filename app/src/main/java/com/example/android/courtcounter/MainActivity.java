@@ -19,21 +19,24 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team A by 3 points.
      */
     public void addThreeForTeamA(View v) {
-        displayForTeamA(3);
+        scoreTeamA = scoreTeamA + 3;
+        displayForTeamA(scoreTeamA);
     }
 
     /**
      * Increase the score for Team A by 2 points.
      */
     public void addTwoForTeamA(View v) {
-        displayForTeamA(2);
+        scoreTeamA = scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
     }
 
     /**
      * Increase the score for Team A by 1 points.
      */
     public void addOneForTeamA(View v) {
-        displayForTeamA(2);
+        scoreTeamA = scoreTeamA + 1;
+        displayForTeamA(scoreTeamA);
     }
 
     /**
